@@ -1,7 +1,7 @@
-let dia = 90; //lunes, martes.....
+let dia = 0; //lunes, martes.....
 // 0 es el domingo
 
-switch (dia) {
+/* switch (dia) {
   case 0:
     console.log("Es domingo");
     break;
@@ -25,4 +25,22 @@ switch (dia) {
     break;
   default:
     console.log("No es un dia valido");
+} */
+
+// ejercicio con if
+
+if (dia === 0) {
+  console.log("Es domingo");
+} else if (dia === 1) {
+  console.log("Es lunes");
+} else if (dia === 2) {
+  console.log("Es martes");
+} else if (dia === 3) {
+  console.log("Es miercoles");
+} else if (dia === 4) {
+  console.log("Es jueves");
+} else if (dia === 5) {
+  console.log("Es viernes");
+} else if (dia === 6) {
+  console.log("Es sabado");
 }
